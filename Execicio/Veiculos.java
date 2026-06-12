@@ -4,7 +4,7 @@ public class Veiculos {
     private double capacidadeTanque;
     private double consumoKm;
 
-    public Veiculos(String placa, String modelo, double capacidadeTanque, double consumokm){
+    public Veiculos(String placa, String modelo, double capacidadeTanque, double consumoKm){
         this.placa = placa;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
