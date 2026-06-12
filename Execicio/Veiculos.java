@@ -8,7 +8,7 @@ public class Veiculos {
         this.placa = placa;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
-        this.consumoKm= consumoKm;
+        this.consumoKm = consumoKm;
     }
      public String getplaca(){
         return placa;
