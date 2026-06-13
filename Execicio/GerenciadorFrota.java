@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import javax.swing.JOptionPane; 
+import javax.swing.JOptionPane;
 public class GerenciadorFrota{
     ArrayList<Veiculos> listasVeiculos = new ArrayList<>();
     public void adicionarVeiculo(Veiculos v){
@@ -6,7 +8,7 @@ public class GerenciadorFrota{
     }
     public void listaVeiculos(){
         for(Veiculos automoveis: listasVeiculos){
-            System.out.printf("=-=-=-=-=-=-=-=-=-=-=-=-\nAutomovel: %s \nAltonomia: %.2f\n-=-=-=-=-=-=-=-=-=-=-=-=", automoveis.getmodelo(),automoveis.calcularAltonomia());
+            JOptionPane.showMessageDialog(null, "=-=-=-=-=-=-=-=-=-=-=-=-\nAutomovel:" + automoveis.getmodelo() + "\nAltonomia:" + automoveis.calcularAltonomia() + "-=-=-=-=-=-=-=-=-=-=-=-=");
         }
     }
 }
