@@ -16,6 +16,7 @@ public class Ponbo extends Aves{
     public void enviar_cartas(){
         System.out.println("a " + getanimal() + " entregou sua carta");
         this.cartas_enviadas ++;
+        System.out.println("olá mundo");
     }
 
 }
