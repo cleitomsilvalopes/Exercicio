@@ -7,5 +7,6 @@ public class Cachorro extends Animal{
     }
    public void pular(){
     System.out.println("o " + getanimal() + " esta pulando");
+    System.out.println();
    } 
 }
