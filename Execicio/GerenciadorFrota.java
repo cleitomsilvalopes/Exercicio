@@ -1,14 +1,12 @@
 import java.util.ArrayList;
 public class GerenciadorFrota{
-    ArrayList<Veiculos> listaVeiculos = new ArrayList<>();
-
+    ArrayList<Veiculos> listasVeiculos = new ArrayList<>();
     public void adicionarVeiculo(Veiculos v){
-
+        listasVeiculos.add(v);
     }
     public void listaVeiculos(){
-        for(Veiculos automoveis: listaVeiculos){
-            System.out.println(automoveis);
-            System.out.println(automoveis.calcularAltonomia());
+        for(Veiculos automoveis: listasVeiculos){
+            System.out.printf("=-=-=-=-=-=-=-=-=-=-=-=-\nAutomovel: %s \nAltonomia: %.2f\n-=-=-=-=-=-=-=-=-=-=-=-=", automoveis.getmodelo(),automoveis.calcularAltonomia());
         }
     }
 }
