@@ -1,4 +1,4 @@
-public class Veiculos {
+public abstract class Veiculos {
     private String placa;
     private String modelo;
     private double capacidadeTanque;
@@ -37,4 +37,7 @@ public class Veiculos {
      public void setconsumoKm(double consumo){
         this.consumoKm = consumoKm;
      }
+
+     public abstract double calcularAltonomia();
+
 }
