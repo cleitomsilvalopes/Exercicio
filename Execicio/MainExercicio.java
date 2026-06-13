@@ -1,7 +1,6 @@
 
 import javax.swing.JOptionPane;
 public class MainExercicio{
- 
     public static void main(String[] args){
         GerenciadorFrota adicionar = new GerenciadorFrota();
     while(true){
