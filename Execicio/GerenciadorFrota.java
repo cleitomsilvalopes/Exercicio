@@ -11,9 +11,4 @@ public class GerenciadorFrota{
             JOptionPane.showMessageDialog(null, "=-=-=-=-=-=-=-=-=-=-=-=-\nAutomovel:" + automoveis.getmodelo() + "\nAltonomia:" + automoveis.calcularAltonomia() + "-=-=-=-=-=-=-=-=-=-=-=-=");
         }
     }
-<<<<<<< Updated upstream
 }
-=======
-}
-
->>>>>>> Stashed changes
